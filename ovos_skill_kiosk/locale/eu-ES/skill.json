@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-kiosk.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-kiosk",
+  "name": "Kiosk",
+  "description": "Pantaila bateko laguntzailea, ahotsez: pantaila osoa, pantaila piztuta, aplikazio gisa instalatu.",
+  "examples": [
+    "Pantaila osoa",
+    "Mantendu pantaila piztuta",
+    "Instalatu zure burua aplikazio gisa"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-kiosk/main/res/icon.png",
+  "tags": [
+    "kiosk",
+    "screen",
+    "emkay"
+  ]
+}

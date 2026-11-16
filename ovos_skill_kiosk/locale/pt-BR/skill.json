@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-kiosk.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-kiosk",
+  "name": "Kiosk",
+  "description": "Um assistente numa tela, por voz: tela cheia, manter a tela ligada, instalar como app.",
+  "examples": [
+    "Tela cheia",
+    "Mantenha a tela ligada",
+    "Instale-se como app"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-kiosk/main/res/icon.png",
+  "tags": [
+    "kiosk",
+    "screen",
+    "emkay"
+  ]
+}

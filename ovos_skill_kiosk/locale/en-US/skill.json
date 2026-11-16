@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-kiosk.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-kiosk",
+  "name": "Kiosk",
+  "description": "An assistant on a screen, by voice: full screen, keeping the screen on, installing as an app.",
+  "examples": [
+    "Go full screen",
+    "Keep the screen on",
+    "Install yourself as an app"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-kiosk/main/res/icon.png",
+  "tags": [
+    "kiosk",
+    "screen",
+    "emkay"
+  ]
+}

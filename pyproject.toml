@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-kiosk"
+version = "0.1.0a1"
+description = "OpenVoiceOS skill: full screen, keeping the screen on and installing as an app, by voice, for an assistant on a screen"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Andreas Lorensen"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "skill", "kiosk", "screen", "fullscreen", "emkay"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "ovos-utils>=0.0.38",
+    "ovos-workshop>=0.0.15,<10.0.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "ovos-bus-client"]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/ovos-skill-kiosk"
+Issues = "https://github.com/emkay-voice/ovos-skill-kiosk/issues"
+Emkay = "https://github.com/emkay-voice/emkay"
+Icon = "https://raw.githubusercontent.com/emkay-voice/ovos-skill-kiosk/main/res/icon.png"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-kiosk.emkay-voice" = "ovos_skill_kiosk:KioskSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_kiosk"]
+
+
+[tool.setuptools.package-data]
+ovos_skill_kiosk = ["locale/**/*"]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+testpaths = ["tests"]
