@@ -18,8 +18,8 @@ English and Danish are in [`tools/translations.py`](tools/translations.py)).
 
 ## How it works
 
-The skill does not touch the screen itself. It asks the screen's client
-over the bus, and the client does it and answers:
+The skill does not touch the screen itself. It asks over the bus, OVOS
+style, and a PHAL plugin for the device's screen does it and answers:
 
 | request | data | answer on `<type>.response` |
 |---|---|---|
@@ -34,13 +34,15 @@ over the bus, and the client does it and answers:
 ```
 
 A browser allows full screen and installing as an app only after a tap,
-not on its own. So the client shows one big button ("Tap for full screen")
+not on its own. So the page shows one big button ("Tap for full screen")
 and answers `needs_tap`, and the skill says to tap it; `<type>.done`
-follows once it is done. When no client answers within three seconds, the
+follows once it is done. When nothing answers within three seconds, the
 skill says this screen can't do that.
 
-Emkay's page answers these messages. Another GUI client (a kiosk shell, a
-Mark II screen) can take the same ones.
+In Emkay, [ovos-phal-plugin-browser](https://github.com/emkay-voice/ovos-phal-plugin-browser)
+answers these messages (with the page doing the part only a browser tab
+can). A PHAL plugin for other hardware (a kiosk shell, a Mark II screen)
+can take the same ones.
 
 ## License
 
