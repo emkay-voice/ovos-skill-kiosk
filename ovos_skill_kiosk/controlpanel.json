@@ -1,0 +1,115 @@
+{
+ "controlpanel": 1,
+ "id": "kiosk",
+ "title": "kiosk.title",
+ "group": "screen",
+ "order": 5,
+ "icon": "controlpanel.svg",
+ "bus": "ovos.kiosk.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "kiosk.intro"
+  },
+  {
+   "type": "status",
+   "heading": "kiosk.now",
+   "query": "ovos.kiosk.status",
+   "refresh": 5,
+   "rows": [
+    {
+     "label": "kiosk.fullscreen",
+     "text": "kiosk.yes",
+     "when": "fullscreen"
+    },
+    {
+     "label": "kiosk.fullscreen",
+     "text": "kiosk.no",
+     "when": "!fullscreen"
+    },
+    {
+     "label": "kiosk.awake",
+     "text": "kiosk.yes",
+     "when": "keep_awake"
+    },
+    {
+     "label": "kiosk.awake",
+     "text": "kiosk.no",
+     "when": "!keep_awake"
+    },
+    {
+     "label": "kiosk.app",
+     "text": "kiosk.yes",
+     "when": "installed"
+    },
+    {
+     "label": "kiosk.app",
+     "text": "kiosk.no",
+     "when": "!installed"
+    },
+    {
+     "text": "kiosk.unsupported",
+     "when": "!supported"
+    },
+    {
+     "text": "kiosk.tap",
+     "when": "needs_tap"
+    },
+    {
+     "text": "kiosk.ios",
+     "when": "ios"
+    }
+   ],
+   "actions": [
+    {
+     "label": "kiosk.fs.on",
+     "send": "ovos.kiosk.fullscreen",
+     "data": {
+      "enabled": true
+     },
+     "privileged": false,
+     "when": "!fullscreen",
+     "done": "kiosk.sent"
+    },
+    {
+     "label": "kiosk.fs.off",
+     "send": "ovos.kiosk.fullscreen",
+     "data": {
+      "enabled": false
+     },
+     "privileged": false,
+     "when": "fullscreen"
+    },
+    {
+     "label": "kiosk.aw.on",
+     "send": "ovos.kiosk.keep_awake",
+     "data": {
+      "enabled": true
+     },
+     "privileged": false,
+     "when": "!keep_awake"
+    },
+    {
+     "label": "kiosk.aw.off",
+     "send": "ovos.kiosk.keep_awake",
+     "data": {
+      "enabled": false
+     },
+     "privileged": false,
+     "when": "keep_awake"
+    },
+    {
+     "label": "kiosk.install",
+     "send": "ovos.kiosk.install",
+     "privileged": false,
+     "when": "!installed",
+     "done": "kiosk.sent"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "kiosk.who"
+  }
+ ]
+}

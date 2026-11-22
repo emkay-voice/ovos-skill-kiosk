@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Schermo e chiosco",
+ "kiosk.intro": "Per un assistente su uno schermo: schermo intero, schermo sempre acceso e installazione come app. Puoi anche dire «schermo intero» o «tieni lo schermo acceso».",
+ "kiosk.who": "Lo fa lo schermo stesso, quindi funziona dove è in esecuzione Emkay o un altro schermo che lo conosce.",
+ "kiosk.now": "Questo schermo",
+ "kiosk.fullscreen": "Schermo intero",
+ "kiosk.awake": "Lo schermo resta acceso",
+ "kiosk.app": "Installato come app",
+ "kiosk.yes": "Sì",
+ "kiosk.no": "No",
+ "kiosk.unsupported": "Questo browser non può andare a schermo intero né installare app.",
+ "kiosk.tap": "Tocca il pulsante grande sullo schermo per finire.",
+ "kiosk.ios": "Su iPhone o iPad: tocca Condividi, poi Aggiungi alla schermata Home.",
+ "kiosk.fs.on": "Schermo intero",
+ "kiosk.fs.off": "Esci dallo schermo intero",
+ "kiosk.aw.on": "Tieni lo schermo acceso",
+ "kiosk.aw.off": "Lascia spegnere lo schermo",
+ "kiosk.install": "Installa come app",
+ "kiosk.sent": "Inviato allo schermo. Se mostra un pulsante grande, toccalo."
+}

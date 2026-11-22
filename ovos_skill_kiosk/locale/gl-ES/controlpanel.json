@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Pantalla e quiosco",
+ "kiosk.intro": "Para un asistente nunha pantalla: pantalla completa, manter a pantalla acesa e instalalo como aplicación. Tamén podes dicir «pantalla completa» ou «mantén a pantalla acesa».",
+ "kiosk.who": "Faino a propia pantalla, así que funciona onde se executa Emkay ou outra pantalla que o coñeza.",
+ "kiosk.now": "Esta pantalla",
+ "kiosk.fullscreen": "Pantalla completa",
+ "kiosk.awake": "A pantalla mantense acesa",
+ "kiosk.app": "Instalado como aplicación",
+ "kiosk.yes": "Si",
+ "kiosk.no": "Non",
+ "kiosk.unsupported": "Este navegador non pode poñerse en pantalla completa nin instalar aplicacións.",
+ "kiosk.tap": "Toca o botón grande da pantalla para rematar.",
+ "kiosk.ios": "Nun iPhone ou iPad: toca Compartir e despois Engadir á pantalla de inicio.",
+ "kiosk.fs.on": "Pantalla completa",
+ "kiosk.fs.off": "Saír da pantalla completa",
+ "kiosk.aw.on": "Manter a pantalla acesa",
+ "kiosk.aw.off": "Deixar que a pantalla se apague",
+ "kiosk.install": "Instalar como aplicación",
+ "kiosk.sent": "Enviado á pantalla. Se amosa un botón grande, tócao."
+}

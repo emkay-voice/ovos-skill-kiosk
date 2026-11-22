@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Bildschirm und Kiosk",
+ "kiosk.intro": "Für einen Assistenten auf einem Bildschirm: Vollbild, Bildschirm anlassen und als App installieren. Du kannst auch „Vollbild“ oder „Lass den Bildschirm an“ sagen.",
+ "kiosk.who": "Das macht der Bildschirm selbst, also funktioniert es dort, wo Emkay oder ein anderer Bildschirm läuft, der es kennt.",
+ "kiosk.now": "Dieser Bildschirm",
+ "kiosk.fullscreen": "Vollbild",
+ "kiosk.awake": "Bildschirm bleibt an",
+ "kiosk.app": "Als App installiert",
+ "kiosk.yes": "Ja",
+ "kiosk.no": "Nein",
+ "kiosk.unsupported": "Dieser Browser kann kein Vollbild und keine Apps installieren.",
+ "kiosk.tap": "Tippe auf den großen Knopf auf dem Bildschirm, um es abzuschließen.",
+ "kiosk.ios": "Auf einem iPhone oder iPad: Tippe auf Teilen und dann auf Zum Home-Bildschirm.",
+ "kiosk.fs.on": "Vollbild",
+ "kiosk.fs.off": "Vollbild beenden",
+ "kiosk.aw.on": "Bildschirm anlassen",
+ "kiosk.aw.off": "Bildschirm schlafen lassen",
+ "kiosk.install": "Als App installieren",
+ "kiosk.sent": "An den Bildschirm geschickt. Zeigt er einen großen Knopf, tippe darauf."
+}

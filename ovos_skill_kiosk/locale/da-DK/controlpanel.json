@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Skærm og kiosk",
+ "kiosk.intro": "Til en assistent på en skærm: fuld skærm, skærmen holdt tændt og installering som app. Du kan også sige “fuld skærm” eller “hold skærmen tændt”.",
+ "kiosk.who": "Det er skærmen selv, der gør det, så det virker, hvor Emkay eller en anden skærm, der kender det, kører.",
+ "kiosk.now": "Denne skærm",
+ "kiosk.fullscreen": "Fuld skærm",
+ "kiosk.awake": "Skærmen holdes tændt",
+ "kiosk.app": "Installeret som app",
+ "kiosk.yes": "Ja",
+ "kiosk.no": "Nej",
+ "kiosk.unsupported": "Denne browser kan ikke vise fuld skærm eller installere apps.",
+ "kiosk.tap": "Tryk på den store knap på skærmen for at gøre det færdigt.",
+ "kiosk.ios": "På en iPhone eller iPad: tryk på Del og derefter Føj til hjemmeskærm.",
+ "kiosk.fs.on": "Fuld skærm",
+ "kiosk.fs.off": "Forlad fuld skærm",
+ "kiosk.aw.on": "Hold skærmen tændt",
+ "kiosk.aw.off": "Lad skærmen gå i dvale",
+ "kiosk.install": "Installér som app",
+ "kiosk.sent": "Sendt til skærmen. Viser den en stor knap, så tryk på den."
+}

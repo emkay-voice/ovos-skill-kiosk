@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Screen and kiosk",
+ "kiosk.intro": "For an assistant on a screen: full screen, keeping the screen on, and installing it as an app. You can also say “go full screen” or “keep the screen on”.",
+ "kiosk.who": "The screen does these itself, so they work where Emkay or another screen that knows them is running.",
+ "kiosk.now": "This screen",
+ "kiosk.fullscreen": "Full screen",
+ "kiosk.awake": "Screen stays on",
+ "kiosk.app": "Installed as an app",
+ "kiosk.yes": "Yes",
+ "kiosk.no": "No",
+ "kiosk.unsupported": "This browser can't go full screen or install apps.",
+ "kiosk.tap": "Tap the big button on the screen to finish.",
+ "kiosk.ios": "On an iPhone or iPad: tap Share, then Add to Home Screen.",
+ "kiosk.fs.on": "Go full screen",
+ "kiosk.fs.off": "Leave full screen",
+ "kiosk.aw.on": "Keep the screen on",
+ "kiosk.aw.off": "Let the screen sleep",
+ "kiosk.install": "Install as an app",
+ "kiosk.sent": "Sent to the screen. If it shows a big button, tap it."
+}

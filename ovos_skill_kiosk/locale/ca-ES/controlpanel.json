@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Pantalla i quiosc",
+ "kiosk.intro": "Per a un assistent en una pantalla: pantalla completa, mantenir la pantalla encesa i instal·lar-lo com a aplicació. També pots dir «pantalla completa» o «mantén la pantalla encesa».",
+ "kiosk.who": "Ho fa la mateixa pantalla, així que funciona on s'executa Emkay o una altra pantalla que ho conegui.",
+ "kiosk.now": "Aquesta pantalla",
+ "kiosk.fullscreen": "Pantalla completa",
+ "kiosk.awake": "La pantalla es manté encesa",
+ "kiosk.app": "Instal·lat com a aplicació",
+ "kiosk.yes": "Sí",
+ "kiosk.no": "No",
+ "kiosk.unsupported": "Aquest navegador no pot posar-se en pantalla completa ni instal·lar aplicacions.",
+ "kiosk.tap": "Toca el botó gran de la pantalla per acabar.",
+ "kiosk.ios": "En un iPhone o iPad: toca Comparteix i després Afegeix a la pantalla d'inici.",
+ "kiosk.fs.on": "Pantalla completa",
+ "kiosk.fs.off": "Surt de la pantalla completa",
+ "kiosk.aw.on": "Mantén la pantalla encesa",
+ "kiosk.aw.off": "Deixa que la pantalla s'apagui",
+ "kiosk.install": "Instal·la com a aplicació",
+ "kiosk.sent": "Enviat a la pantalla. Si mostra un botó gran, toca'l."
+}

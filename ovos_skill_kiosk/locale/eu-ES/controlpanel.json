@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Pantaila eta kioskoa",
+ "kiosk.intro": "Pantaila bateko laguntzailearentzat: pantaila osoa, pantaila piztuta mantentzea eta aplikazio gisa instalatzea. “Pantaila osoa” edo “mantendu pantaila piztuta” ere esan dezakezu.",
+ "kiosk.who": "Pantailak berak egiten du, beraz Emkay edo hori ezagutzen duen beste pantaila bat dabilen lekuan funtzionatzen du.",
+ "kiosk.now": "Pantaila hau",
+ "kiosk.fullscreen": "Pantaila osoa",
+ "kiosk.awake": "Pantaila piztuta mantentzen da",
+ "kiosk.app": "Aplikazio gisa instalatuta",
+ "kiosk.yes": "Bai",
+ "kiosk.no": "Ez",
+ "kiosk.unsupported": "Nabigatzaile honek ezin du pantaila osoa jarri ezta aplikaziorik instalatu ere.",
+ "kiosk.tap": "Sakatu pantailako botoi handia amaitzeko.",
+ "kiosk.ios": "iPhone edo iPad batean: sakatu Partekatu eta gero Gehitu hasierako pantailan.",
+ "kiosk.fs.on": "Pantaila osoa",
+ "kiosk.fs.off": "Irten pantaila osotik",
+ "kiosk.aw.on": "Mantendu pantaila piztuta",
+ "kiosk.aw.off": "Utzi pantaila itzaltzen",
+ "kiosk.install": "Instalatu aplikazio gisa",
+ "kiosk.sent": "Pantailara bidalita. Botoi handi bat erakusten badu, sakatu."
+}

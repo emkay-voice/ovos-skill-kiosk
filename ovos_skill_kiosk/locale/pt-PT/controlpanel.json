@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Ecrã e quiosque",
+ "kiosk.intro": "Para um assistente num ecrã: ecrã inteiro, manter o ecrã ligado e instalar como aplicação. Também pode dizer “ecrã inteiro” ou “mantém o ecrã ligado”.",
+ "kiosk.who": "É o próprio ecrã que o faz, por isso funciona onde estiver a correr o Emkay ou outro ecrã que o conheça.",
+ "kiosk.now": "Este ecrã",
+ "kiosk.fullscreen": "Ecrã inteiro",
+ "kiosk.awake": "O ecrã fica ligado",
+ "kiosk.app": "Instalado como aplicação",
+ "kiosk.yes": "Sim",
+ "kiosk.no": "Não",
+ "kiosk.unsupported": "Este navegador não consegue ficar em ecrã inteiro nem instalar aplicações.",
+ "kiosk.tap": "Toque no botão grande no ecrã para terminar.",
+ "kiosk.ios": "Num iPhone ou iPad: toque em Partilhar e depois em Adicionar ao ecrã principal.",
+ "kiosk.fs.on": "Ecrã inteiro",
+ "kiosk.fs.off": "Sair do ecrã inteiro",
+ "kiosk.aw.on": "Manter o ecrã ligado",
+ "kiosk.aw.off": "Deixar o ecrã adormecer",
+ "kiosk.install": "Instalar como aplicação",
+ "kiosk.sent": "Enviado para o ecrã. Se mostrar um botão grande, toque nele."
+}

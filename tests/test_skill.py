@@ -79,3 +79,29 @@ def test_every_language_has_everything(lang):
         assert f'"{i}.intent"' in code
     for d in DIALOGS:
         assert (loc / f"{d}.dialog").read_text(encoding="utf-8").strip(), d
+
+
+def test_the_panel_page_sends_only_what_the_screen_answers():
+    import json
+    page = json.loads((ROOT / "controlpanel.json").read_text())
+    sent = set()
+
+    def walk(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in ("query", "send"):
+                    sent.add(v)
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(page)
+    assert sent == {"ovos.kiosk.status", "ovos.kiosk.fullscreen", "ovos.kiosk.keep_awake", "ovos.kiosk.install"}
+
+
+@pytest.mark.parametrize("lang", LANGS)
+def test_the_panel_page_in_every_language(lang):
+    import json
+    en = json.loads((ROOT / "locale" / "en-US" / "controlpanel.json").read_text())
+    d = json.loads((ROOT / "locale" / lang / "controlpanel.json").read_text())
+    assert set(d) == set(en) and all(d.values())
