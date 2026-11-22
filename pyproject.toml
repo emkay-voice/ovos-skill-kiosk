@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-skill-kiosk"
-version = "0.1.0a2"
+version = "0.1.0a3"
 description = "OpenVoiceOS skill: full screen, keeping the screen on and installing as an app, by voice, for an assistant on a screen"
 readme = "README.md"
 license = {text = "Apache-2.0"}
