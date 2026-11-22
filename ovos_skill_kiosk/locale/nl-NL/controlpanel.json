@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Scherm en kiosk",
+ "kiosk.intro": "Voor een assistent op een scherm: volledig scherm, het scherm aan houden en installeren als app. Je kunt ook “volledig scherm” of “houd het scherm aan” zeggen.",
+ "kiosk.who": "Het scherm doet dit zelf, dus het werkt waar Emkay of een ander scherm dat het kent draait.",
+ "kiosk.now": "Dit scherm",
+ "kiosk.fullscreen": "Volledig scherm",
+ "kiosk.awake": "Scherm blijft aan",
+ "kiosk.app": "Geïnstalleerd als app",
+ "kiosk.yes": "Ja",
+ "kiosk.no": "Nee",
+ "kiosk.unsupported": "Deze browser kan geen volledig scherm tonen of apps installeren.",
+ "kiosk.tap": "Tik op de grote knop op het scherm om het af te ronden.",
+ "kiosk.ios": "Op een iPhone of iPad: tik op Deel en daarna op Zet op beginscherm.",
+ "kiosk.fs.on": "Volledig scherm",
+ "kiosk.fs.off": "Volledig scherm verlaten",
+ "kiosk.aw.on": "Scherm aan houden",
+ "kiosk.aw.off": "Scherm laten slapen",
+ "kiosk.install": "Installeren als app",
+ "kiosk.sent": "Naar het scherm gestuurd. Toont het een grote knop, tik er dan op."
+}

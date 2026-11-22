@@ -44,6 +44,14 @@ answers these messages (with the page doing the part only a browser tab
 can). A PHAL plugin for other hardware (a kiosk shell, a Mark II screen)
 can take the same ones.
 
+## In the control panel
+
+The skill brings its own page for [ovos-control-panel](https://github.com/OpenVoiceOS/ovos-control-panel)
+(`controlpanel.json`, under *Screen*): whether the screen is full screen, kept
+on and installed as an app, with buttons for each. The page sends the same
+`ovos.kiosk.*` messages as the skill, so the screen's client answers them
+itself. In all of Emkay's languages.
+
 ## License
 
 Apache-2.0

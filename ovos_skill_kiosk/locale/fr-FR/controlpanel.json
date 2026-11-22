@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Écran et kiosque",
+ "kiosk.intro": "Pour un assistant sur un écran : plein écran, écran toujours allumé et installation comme application. Vous pouvez aussi dire « plein écran » ou « garde l'écran allumé ».",
+ "kiosk.who": "C'est l'écran lui-même qui s'en charge, donc cela fonctionne là où tourne Emkay ou un autre écran qui le connaît.",
+ "kiosk.now": "Cet écran",
+ "kiosk.fullscreen": "Plein écran",
+ "kiosk.awake": "Écran toujours allumé",
+ "kiosk.app": "Installé comme application",
+ "kiosk.yes": "Oui",
+ "kiosk.no": "Non",
+ "kiosk.unsupported": "Ce navigateur ne peut pas passer en plein écran ni installer d'applications.",
+ "kiosk.tap": "Touchez le grand bouton à l'écran pour terminer.",
+ "kiosk.ios": "Sur un iPhone ou un iPad : touchez Partager, puis Sur l'écran d'accueil.",
+ "kiosk.fs.on": "Plein écran",
+ "kiosk.fs.off": "Quitter le plein écran",
+ "kiosk.aw.on": "Garder l'écran allumé",
+ "kiosk.aw.off": "Laisser l'écran se mettre en veille",
+ "kiosk.install": "Installer comme application",
+ "kiosk.sent": "Envoyé à l'écran. S'il affiche un grand bouton, touchez-le."
+}

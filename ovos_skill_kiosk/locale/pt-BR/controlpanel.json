@@ -1,0 +1,20 @@
+{
+ "kiosk.title": "Tela e quiosque",
+ "kiosk.intro": "Para um assistente numa tela: tela cheia, manter a tela ligada e instalar como app. Você também pode dizer “tela cheia” ou “mantenha a tela ligada”.",
+ "kiosk.who": "É a própria tela que faz isso, então funciona onde o Emkay ou outra tela que conheça isso estiver rodando.",
+ "kiosk.now": "Esta tela",
+ "kiosk.fullscreen": "Tela cheia",
+ "kiosk.awake": "A tela fica ligada",
+ "kiosk.app": "Instalado como app",
+ "kiosk.yes": "Sim",
+ "kiosk.no": "Não",
+ "kiosk.unsupported": "Este navegador não consegue ficar em tela cheia nem instalar apps.",
+ "kiosk.tap": "Toque no botão grande na tela para terminar.",
+ "kiosk.ios": "No iPhone ou iPad: toque em Compartilhar e depois em Adicionar à Tela de Início.",
+ "kiosk.fs.on": "Tela cheia",
+ "kiosk.fs.off": "Sair da tela cheia",
+ "kiosk.aw.on": "Manter a tela ligada",
+ "kiosk.aw.off": "Deixar a tela apagar",
+ "kiosk.install": "Instalar como app",
+ "kiosk.sent": "Enviado para a tela. Se aparecer um botão grande, toque nele."
+}

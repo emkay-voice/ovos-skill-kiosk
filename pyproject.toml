@@ -39,7 +39,7 @@ packages = ["ovos_skill_kiosk"]
 
 
 [tool.setuptools.package-data]
-ovos_skill_kiosk = ["locale/**/*"]
+ovos_skill_kiosk = ["locale/**/*", "controlpanel.json", "controlpanel.svg"]
 
 [tool.pytest.ini_options]
 addopts = "--import-mode=importlib"
