@@ -1,6 +1,10 @@
 {
   "skill_id": "ovos-skill-kiosk.emkay-voice",
   "source": "https://github.com/emkay-voice/ovos-skill-kiosk",
+  "package_name": "ovos-skill-kiosk",
+  "pip_spec": "ovos-skill-kiosk",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
   "name": "Kiosk",
   "description": "Un asistente en una pantalla, con la voz: pantalla completa, pantalla encendida, instalar como aplicación.",
   "examples": [
